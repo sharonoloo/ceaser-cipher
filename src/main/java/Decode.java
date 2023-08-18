@@ -1,4 +1,3 @@
-
 public class Decode {
 
     private String decodeMessage="";
