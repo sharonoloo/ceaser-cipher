@@ -3,6 +3,7 @@ package ceaser.cipher;
 import java.io.BufferedReader;
 import java.io.Console;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.Scanner;
 
 public class App {
@@ -11,11 +12,14 @@ public class App {
 
     public static void main(String[] args) throws Exception {
 
+        
         System.out.println("Welcome to Caesar Cipher program!\n");
         System.out.println("Select your functionality:");
         System.out.println("1.Encoding\n2.Decoding\n");
+        
         Scanner newScanner = new Scanner(System.in);
-            int selection = newScanner.nextInt();
+        int selection = newScanner.nextInt();
+        
             //Encoding UI
             if(selection==1){
                 System.out.println("Encoding");
