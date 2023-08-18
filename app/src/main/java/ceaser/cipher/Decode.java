@@ -1,3 +1,4 @@
+package ceaser.cipher;
 public class Decode {
 
     private String decodeMessage="";

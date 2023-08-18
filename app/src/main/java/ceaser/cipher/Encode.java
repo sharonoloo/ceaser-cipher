@@ -1,10 +1,10 @@
-package main.java;
+package ceaser.cipher;
 
 public class Encode {
-    private String encodeMessage="";
+    private static String encodeMessage="";
     private int key;
 
-    public String encoding(String plainText, int key) throws Exception{
+    public static String encoding(String plainText, int key) throws Exception{
 
         if(key < 1 || key > 25) throw new Exception("The key must be between 1 and 25");
         for(int i=0; i<plainText.length(); i++){
