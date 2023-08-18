@@ -1,6 +1,6 @@
-## project or program name
+## Project Name
 Encrypt Decrypt Text Caesar Cipher
-## author name
+## Author Name
 Sharon Oloo
 ## description of project
 This project illustrates a type of substitution in which each letter is shifted a certain number of places also known as a key, down the alphabet. In our case when encrypting we shift reverse 3 and on decryption we shift 3 keys forward. Example:
